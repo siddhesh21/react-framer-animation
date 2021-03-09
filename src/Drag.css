@@ -1,0 +1,35 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #ae00ff 0%, rgb(211, 9, 225) 100%);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.drag__container div {
+    background: white;
+    border-radius: 30px;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: calc(50% - 175px / 2);
+    left: calc(50% - 175px / 2);
+}
+
+.app__container .drag-area {
+    opacity: 0.2;
+    background: white;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+}
