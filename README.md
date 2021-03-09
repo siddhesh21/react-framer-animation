@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# This repo has animation solely based on amazing React JS library "React Framer Motion".
+## Checkout here >>> https://www.framer.com/api/motion/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
